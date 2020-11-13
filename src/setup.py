@@ -10,6 +10,9 @@ for key, value in cfg_vars.items():
 
 cpp_args = ['-std=c++11']
 
+
+# TODO: generalize for any python 3 distribution,
+# generalize output library path for SEAL
 ext_modules = [
     Extension(
         'seal',
